@@ -1,4 +1,5 @@
 # calculate area of a circle
 radius=5
-area=3.14*radius*radius
+pi=3.14
+area=pi*radius*radius
 print(area)
