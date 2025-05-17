@@ -34,4 +34,5 @@ y=text.lower()
 print(y)
 text=" "
 x=text.strip()
-print("of all fruits",x"is my favourite")
+print("of all fruits",x,"is my favorite")
+
