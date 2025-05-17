@@ -27,3 +27,11 @@ my_text=my_text.capitalize()
 print(my_text)
 my_text=my_text .count('l')
 print(my_text)
+text="HELLO world"
+x=text.upper()
+print(x)
+y=text.lower()
+print(y)
+text=" "
+x=text.strip()
+print("of all fruits",x,"is my favourite")
