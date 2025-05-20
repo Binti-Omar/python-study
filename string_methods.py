@@ -14,3 +14,20 @@ text=" learn python "
 text=text.replace(' ','_')
 print(text)
 print(text[10:13])
+my_name=input('my_name:binti omar')
+print(my_name)
+my_name='binti omar'
+print(len(my_name))
+s='binti omar'
+s_tit=s.title()
+print(s_tit)
+name="binti omar"
+print(name[::-1])
+text="good habits are hard to break!"
+text=text.replace('good','bad')
+print(text)
+email=" John.Doe@GMAIL.com "
+email=email.lower()
+print(email)
+email=email.strip()
+print(email)
