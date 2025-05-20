@@ -24,10 +24,19 @@ print(s_tit)
 name="binti omar"
 print(name[::-1])
 text="good habits are hard to break!"
-text=text.replace('good','bad')
-print(text)
+text=text.replace('good','BAD')
+print(" ",text," ")
 email=" John.Doe@GMAIL.com "
 email=email.lower()
 print(email)
 email=email.strip()
-print(email)
+print(email[9:18])
+text="My name is John Doe and I love Reading Books"
+first_name='john'
+first_name=first_name.capitalize()
+last_name='DOE'
+last_name=last_name.capitalize()
+hobby=' Reading Books '
+hobby=hobby.strip()
+text=f"my name is{first_name} {last_name} and i love {hobby}"
+print(text)
