@@ -13,3 +13,12 @@ b=int(b)
 c=int(c)
 d=b+c
 print(d)
+# task
+temp=56.8926
+temp=int(temp)
+print(temp)
+temp_round=round(temp)
+print(temp_round)
+temp=56.8926
+temp_round=round(temp,2)
+print(temp_round)
