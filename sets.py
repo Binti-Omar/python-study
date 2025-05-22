@@ -1,0 +1,13 @@
+numbers={10,10,20,20,30,40,50}
+print(type(numbers))
+print(numbers)
+days={'monday','tuesday','wednesday','thursday','friday','saturday','sunday','sunday','sunday','sunday'}
+print(days)
+days.remove('friday')
+print(days)
+days.remove('sunday')
+print(days)
+days.add('friday')
+print(days)
+days.add('sunday')
+print(days)
