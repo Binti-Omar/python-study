@@ -14,7 +14,7 @@ text=" learn python "
 text=text.replace(' ','_')
 print(text)
 print(text[10:13])
-my_name=input('my_name:binti omar')
+my_name=input('my_name:')
 print(my_name)
 my_name='binti omar'
 print(len(my_name))
