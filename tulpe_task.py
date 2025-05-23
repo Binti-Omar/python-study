@@ -45,6 +45,5 @@ x.extend(["purple", "orange"])
 print(x)
 x=tuple(x)
 print(x)
-
 # Attempt questions in the link below. Whether you get the right answer or not, still read the solution explanation.
 # https://realpython.com/quizzes/python-lists-tuples/viewer/
