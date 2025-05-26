@@ -9,14 +9,19 @@ print(my_ds[2])  # Output: 560
 print(my_ds[3][1])  # Output: Maths
 # 4. In the dictionary with the key currency, add another key “amount” with value 90
 my_ds[3][2]["amount"] = 90
+print(my_ds)
 # 5. Reverse 987 to 789 without using an inbuilt -method or Assigning 789 manually.
 #      Hint: Strings can be reversed using [::]
 my_ds[4] = int(str(my_ds[4])[::-1])  # Reverse 987 to 789
 print(my_ds[4])  # Output: 789
 # 6. Change the name “John” to “Jane” .
 my_ds[5] = (my_ds[5][0], "Jane")  # Change "John" to "Jane"
+print(type(my_ds[5]))  # Output: <class 'tuple'>
+print(type(my_ds))  # Output: <class 'list'>
 print(my_ds[5])  # Output: (76, "Jane")
 # You can research or discuss to find the solutions above.
 #         https://realpython.com/quizzes/pybasics-tuples-lists-dicts/ 
 
 print(my_ds)
+x=(560)
+print(type(x))  # Output: <class 'int'>
