@@ -1,6 +1,6 @@
 # Create a file called mydstask.py and attempt the below questions:
 # my_ds = [23, “Jane”, (560), [“Lesson”, “Maths”, {“currency” : “KES”}], 987, (76,”John”)]
-my_ds = [23, "Jane", 560, ["Lesson", "Maths", {"currency": "KES"}], 987, (76, "John")]
+my_ds = [23, "Jane", (560), ["Lesson", "Maths", {"currency": "KES"}], 987, (76, "John")]
 # 1. Print KES
 print(my_ds[3][2]["currency"])  # Output: KES
 # 2. Print 560
@@ -18,3 +18,5 @@ my_ds[5] = (my_ds[5][0], "Jane")  # Change "John" to "Jane"
 print(my_ds[5])  # Output: (76, "Jane")
 # You can research or discuss to find the solutions above.
 #         https://realpython.com/quizzes/pybasics-tuples-lists-dicts/ 
+
+print(my_ds)
