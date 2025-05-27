@@ -22,3 +22,5 @@ if password =="abc123":  # Assuming correct_password is defined
 else:
     print("Access denied")
 
+
+
