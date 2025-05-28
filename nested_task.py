@@ -8,21 +8,21 @@
 # # Check if the amount is above 1,000:
 # # If it is, print "Transaction exceeds the limit for Premium accounts."
 # # If not, print "Transaction approved."
-# amount=int(input("enter your amount :"))
-# account_type=(input("what's your account type ? standard/premium :"))   
-# if account_type=="standard": 
-#      if amount>500:
-#           print("transaction exceeds the limit for standard accounts")
-#      else:
-#           print("transaction approved") 
-# elif account_type=="premium":
-#      if amount>1000:
-#             print("transaction exceeds the limit for standard accounts")
-#      else:
-#           print("transaction approved")   
-# else:
-#      print("wrong account type")      
-# # 1.Assume start_date = '2024-01-01' and end_date = '2024-12-31'. Write a conditional statement that checks:
+amount=int(input("enter your amount :"))
+account_type=(input("what's your account type ? standard/premium :"))   
+if account_type=="standard": 
+     if amount>500:
+          print("transaction exceeds the limit for standard accounts")
+     else:
+          print("transaction approved") 
+elif account_type=="premium":
+     if amount>1000:
+            print("transaction exceeds the limit for standard accounts")
+     else:
+          print("transaction approved")   
+else:
+     print("wrong account type")      
+# 1.Assume start_date = '2024-01-01' and end_date = '2024-12-31'. Write a conditional statement that checks:
 # # If start_date comes before end_date, print "Valid period",
 # # If start_date is after end_date, print "Invalid period".
 # # If both dates are the same, print "One-day period".

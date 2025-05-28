@@ -42,6 +42,7 @@ else:
 # Write a Python program that checks if a variable password is equal to the string "secret123".
 #  If it is, print "Access   granted", otherwise print "Access denied"
 password="secret123" 
+print(type(password))
 if password== "secret123":
     print("Access granted")
 else:
