@@ -25,7 +25,7 @@ if student_score > 90:
     if attendance >80:
       print("Excellent student")
     else:
-      print("good score,but attendance needs improvement ")
+      print("good score,but attendance needs improvement. ")
 else:
    print("good score") 
 
