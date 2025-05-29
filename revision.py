@@ -35,3 +35,4 @@ r="E"+"W"+"C"
 print(r) 
 # Attempt questions in the link below. Whether you get the right answer or not, still read the solution explanation.
 # https://realpython.com/quizzes/python-strings/
+
