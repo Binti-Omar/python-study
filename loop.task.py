@@ -26,14 +26,11 @@ for u in numb:
                      break
 print(odd_numbers)
 # write a program that takes a number as input and prints its multiplication table up to 10 using a for loop.
-# get input,convert to int,create a list of numbers upto 11
 numbers=int(input("enter number :"))
 n=list(range(0,11))
-# loop thru the list,print()
 for i in n:
-       print(i)
-       mult=10*i
-print(f"{i}*{numbers}={mult}")
+       mult=numbers*i
+       print(f"{i}*{numbers}={mult}")
 
 # write a program that counts and prints the number of even numbers between 1 and 50 using a for loop
 count=0
@@ -44,11 +41,13 @@ for i in no:
 print(count)
        
 # ls1 = [ (“Jay”, 20), (“Mo”, 30), (“Mya”, 32) ]
-ls1 = [ ('Jay', 20), ("Mo", 30), ("Mya", 32) ]
+ls1 = [ ('Jay', '20'), ("Mo", '30'), ("Mya", '32') ]
 # Display the total quantity of the 3 above.
 sum=0
 for i in ls1:
-       print(i[1])
+       i=list(i)
+       i[1]=int(i[1])
+       print(i)
        sum=sum+i[1]
 print(sum)
 
