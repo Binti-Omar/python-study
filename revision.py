@@ -22,11 +22,11 @@ text=tex.split(';')
 print(text)
 # first_name="  Joh.n"  last_name="   Do,e" Clean up and display Full name i.e John Doe
 first_name="  Joh.n"  
-first_name=first_name.replace('.',' ')
+first_name=first_name.replace('.','')
 first_name=first_name.strip()
 print(first_name)
 last_name="   Do,e"
-last_name=last_name.replace(',',' ')
+last_name=last_name.replace(',','')
 last_name=last_name.strip()
 print(last_name)
 # Having the string r = '["E","W","C"]' #Manipulate it to display EWC
