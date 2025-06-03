@@ -3,6 +3,7 @@
 # Hint: Check if it contains an “@” symbol and “.” symbol.
 
 email=(input("enter the email: "))
-email=email.find('@')
-email=email.count('.')
-print(email)
+if email.find('@')==-1 and email.count('.')==-1:
+    print('invalid email')
+else:
+    print('valid email')
