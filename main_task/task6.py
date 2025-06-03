@@ -11,6 +11,7 @@ for i in range(1,attempts+1):
         break
     else:
         remaining_attempts=attempts-i
-        print(f'access denied,you have {remaining_attempts} left')
-else:
-    print('the account is blocked')
+        if remaining_attempts>0:
+            print(f'access denied,you have {remaining_attempts} left')
+        else:
+            print('the account is blocked')
