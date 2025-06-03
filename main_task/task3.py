@@ -9,4 +9,8 @@
 phone_number=input('enter phone number: ')
 phone_number=input('enter phone number: ')
 phone_number=input('enter phone number: ')
-if phone_number.startswith(07) return[254]:
+
+phone_number.replace('07','+254')
+phone_number.replace('011','+254')
+phone_number.replace('71','+254')
+phone_number.startswith

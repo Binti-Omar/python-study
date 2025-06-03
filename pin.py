@@ -8,6 +8,6 @@ for i in range(1,attempts+1):
     else:
         remaining_attempts=attempts-i
         if pin!=guess:
-         print(f"you have{remaining_attempts} attempts left")
+         print(f"you have {remaining_attempts} attempts left")
         else:
             print('no more attempts')
