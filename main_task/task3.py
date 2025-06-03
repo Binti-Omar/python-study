@@ -6,11 +6,21 @@
 # e.g if a user enters “0112345678”, the program should display “+254112345678”
 # e.g if a user enters “712345678”, the program should display “+254712345678”
 
-phone_number=input('enter phone number: ')
-phone_number=input('enter phone number: ')
-phone_number=input('enter phone number: ')
 
-phone_number.replace('07','+254')
-phone_number.replace('011','+254')
-phone_number.replace('71','+254')
-phone_number.startswith
+phone_number=input('enter phone number: ')
+if phone_number.startswith('+254') and len(phone_number)==13:
+    valid=phone_number
+elif phone_number.startswith('07') and len(phone_number)==10:
+    valid="+254"+phone_number[1:]
+elif phone_number.startswith('7') and len(phone_number)==9:
+     valid="+254"+phone_number
+elif phone_number.startswith('254') and len(phone_number)==12:
+    valid='+'+phone_number
+elif phone_number.startswith('01')and len(phone_number)==10:
+    valid='+254'+phone_number[1:]
+elif phone_number.startswith('1') and len(phone_number)==9:
+    valid='+254'+phone_number
+else:
+    valid='invalid'
+print(f'{valid} is valid phone number')
+
