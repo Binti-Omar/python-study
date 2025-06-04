@@ -6,7 +6,6 @@
 # e.g if a user enters “0112345678”, the program should display “+254112345678”
 # e.g if a user enters “712345678”, the program should display “+254712345678”
 
-
 phone_number=input('enter phone number: ')
 if phone_number.startswith('+254') and len(phone_number)==13:
     valid=phone_number

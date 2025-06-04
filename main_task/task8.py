@@ -11,7 +11,7 @@ if speed <70:
 else:
     total_points=(speed-70)//5
     print(f'points:{total_points}')
-    if (total_points) > 12:
+    if total_points > 12:
         print('licence suspended')
     else:
-        print('should be arrested')
+        print('do not exceed the limit')

@@ -8,7 +8,6 @@
 # ****
 # *****.....
 
-no=input('enter number of stars: ')
-stars='***'
-for i in stars :
-    print('i')
+no=int(input('enter number of stars: '))
+for i in range(1,no+1):
+    print(i*"*")
