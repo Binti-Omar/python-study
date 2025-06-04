@@ -1,8 +1,14 @@
 # Write a program that takes input of 2 values and adds them.The program should only accept numbers and floats only or
 #  otherwise display an error “invalid character entered” and take the user to re-enter the inputs
 
-my_number1=int(input('enter your number: '))
-my_number2=float(input('enter your number: '))
-
-if my_number1 and my_number2 =='intergers' or 'floats':
-    print
+while True:
+    try:
+        input1=input('enter the first number: ')
+        input1=float(input1) or int(input1)
+        input2=input('enter the second number: ')
+        input2=float(input2) or int(input2)
+        sum=input1+input2
+        print('sum of the two numbers is: ',sum)
+        break
+    except:
+        print('invalid character entered try again')

@@ -14,4 +14,4 @@ else:
     if total_points > 12:
         print('licence suspended')
     else:
-        print('do not exceed the limit')
+        print('do not exceed the  speed limit')
