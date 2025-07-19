@@ -4,7 +4,7 @@ for u in fruits:
     
 
 for i in range(100):
-    print(i)
+    print(list(i))
 x= list(range(2,10))
 for i in x:
   if i % 2 == 0:

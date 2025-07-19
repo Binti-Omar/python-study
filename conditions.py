@@ -16,8 +16,7 @@ else:
     #  if yes, print "Access granted", otherwise print "Access denied". 
     correct_password = "abc123"  # Define the correct password
 password = input("Enter your password: ")
-if password =="abc123":  # Assuming correct_password is defined
-    
+if password =="abc123":  # Assuming correct_password is defined 
     print("Access granted")
 else:
     print("Access denied")

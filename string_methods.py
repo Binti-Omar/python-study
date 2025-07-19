@@ -2,6 +2,7 @@ text="python class"
 text_cap=text.capitalize()
 print(text_cap)
 print(text.count('o'))
+print(text)
 
 c=" learn python "
 c=c.strip()
@@ -38,5 +39,5 @@ last_name='DOE'
 last_name=last_name.capitalize()
 hobby=' Reading Books '
 hobby=hobby.strip()
-text=f"my name is{first_name} {last_name} and i love {hobby}"
+text=f"my name is {first_name} {last_name} and i love {hobby}"
 print(text)

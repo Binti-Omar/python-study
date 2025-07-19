@@ -8,6 +8,7 @@ student={'name':'alex',
 print(student)
 # assessing
 student['age']=40
+student['name']='zari'
 print(student)
 student['occupation']='doctor'
 print(student)

@@ -17,10 +17,8 @@
 def number(no):
     if no %2==0:
         result='even'
-        if no%4==0:
-            result= 'divisible  by 4'
-        else:
-            result=not 'divisible by 4'
+    elif no%4==0:
+         result= 'divisible  by 4'
     else:
         result='odd'
     print(f'the number is {result}')
