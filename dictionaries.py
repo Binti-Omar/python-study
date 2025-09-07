@@ -15,4 +15,5 @@ print(student)
 student['phone']='0717824020'
 print(student)
 student['location']={'town':'nakuru','address':1000,'street':'kimathi'}
+print(student)
 print(student['location']['street'])

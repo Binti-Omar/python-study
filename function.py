@@ -1,11 +1,10 @@
 # def areatriangle():
 def areatriangle(height,base):
-    height=20
-    base=15
     area=height*base*0.5
     print(area)
 # areatriangle()
 areatriangle(30,20)
+areatriangle(50,40)
 
 
 # create a function that checks if a number is an even or odd number

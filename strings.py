@@ -13,10 +13,6 @@ x='1000'
 y='2000'
 z=x+y
 print(z)
-x='1000'
-y='2000'
-z=x+y
-print(z)
 text="python programming"
 print(text[10])
 print(text[7:18])

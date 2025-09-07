@@ -31,6 +31,7 @@ email=" John.Doe@GMAIL.com "
 email=email.lower()
 print(email)
 email=email.strip()
+print(email)
 print(email[9:18])
 text="My name is John Doe and I love Reading Books"
 first_name='john'

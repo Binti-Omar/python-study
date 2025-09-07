@@ -12,18 +12,18 @@ print(days)
 days.add('sunday')
 print(days)
 
-# differnce
+# differnce - returns values that are in the first set but not in the second set
 x={1,2,3,4,5,6,7}
 y={5,6,7,8,9,10}
 z=x.difference(y)         
 print(z)  
-# union
+# union - returns all values without duplication
 z=x.union(y)    
 print(z)
-# symmetric_difference
+# symmetric_difference - returns values that are in either set but not in both
 z=x.symmetric_difference(y)
 print(z)
-#intersection
+#intersection - returns values that are in both sets
 z=x.intersection(y)
 print(z)
 
