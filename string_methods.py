@@ -33,7 +33,7 @@ print(email)
 email=email.strip()
 print(email)
 print(email[9:18])
-text="My name is John Doe and I love Reading Books"
+text="My name is john Doe and I love Reading Books"
 first_name='john'
 first_name=first_name.capitalize()
 last_name='DOE'

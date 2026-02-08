@@ -1,5 +1,5 @@
 # Write a program that displays a numbers 1 to 50 inside a list.
-numbs=list(range(1,50))
+numbs=list(range(1,51))
 print(numbs)
 # From 1 above display the ones divisible by 7 or 5 inside a list.
 no=[]
