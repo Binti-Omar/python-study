@@ -42,7 +42,7 @@ else:
 str1=20
 str2=20
 if str1 >str2:
-      print("stri is longer")
+      print("str1 is longer")
 elif str1<str2:
       print("str2 is longer")
 else:
