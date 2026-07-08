@@ -11,3 +11,4 @@ def area(base,height):
     area=0.5*base*height
     print(area)
 area(10,20)
+area(2,4)
